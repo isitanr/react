@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+/* import React, { Component } from 'react'
 import { ajaxGet } from './index'
 
-/* ESTO IRÍA EN INDEX
+ ESTO IRÍA EN INDEX
 export const ajaxGet = (url, cb) => {
 fetch( url, {
 method: 'GET',
@@ -11,7 +11,7 @@ headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
 .then( res => { return res.json() })
 .then( data => { cb(data) } )
 // devuelve Promise, dejamos el último then() para que lo haga el Component
-}*/
+}
 
 export class Test extends Component {
 
@@ -42,3 +42,4 @@ export class Test extends Component {
 } //Valdría poner en key {cuento._id} porque en la base de datos tenemos id que nunca cambia y no se repite
 // para hacer ajax se puede usar jQuery o ES6 puro: fetch()->Promise. fetch lleva un string (una url) y un objeto con toda la infomación (methor, headers... igual que jquery). Promise .then() o .catch()
 
+*/

@@ -1,3 +1,4 @@
+/*
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
@@ -56,4 +57,4 @@ class Lobo extends component {
       Soy el Lobo {this.props.nombre}
     </div>
   }
-}
+} */
